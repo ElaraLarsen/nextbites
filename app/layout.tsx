@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "NextBites",
-  description: "Discover delicious recipes from around the world.",
+  description: "Discover delicious recipes.",
 };
 
 export default function RootLayout({
@@ -13,18 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <nav className="navbar">
-          <a href="/" className="logo">NextBites.</a>
-
-          <div className="nav-links">
-            <a href="/">Home</a>
-            <a href="/#recipes">Recipes</a>
-          </div>
-        </nav>
-
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
