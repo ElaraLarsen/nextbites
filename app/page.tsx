@@ -34,6 +34,9 @@ export default function Home() {
             />
           ))}
         </div>
+        <footer id="about">
+  <p>Made with love. © 2026 NextBites.</p>
+</footer>
       </section>
     </main>
   );
